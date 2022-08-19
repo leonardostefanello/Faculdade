@@ -8,6 +8,7 @@
 - HTML
 - CSS
 - Lua
+- NodeJS
 
 ###### Finalizado
 -
