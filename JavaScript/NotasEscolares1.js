@@ -1,9 +1,11 @@
-package exer4;
+// NOTA: Script desenvolvido no NetBeans pelo Professor
+
+package exer4; //Mude para o nome da sua Package
 
 import java.util.Scanner;
 
 
-public class Exer4 {
+public class Exer4 { //Mude para o nome da sua Classe
 
     public static void main(String[] args) {
         Scanner ler=new Scanner(System.in);
