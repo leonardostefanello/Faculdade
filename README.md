@@ -18,6 +18,7 @@
 
 ###### Pretende Começar
 - Blender (Modelagem 3D)
+- Adobe Photoshop
 
 ###### Finalizados
 -
