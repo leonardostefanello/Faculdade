@@ -50,5 +50,5 @@
 # Utilitários
 | **Repositórios**                 |                                                                                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
-| Biblioteca Materiais Unisul      | [Disponibilidade de vários materiais para estudos!](https://github.com/computacaoUnisul) `by:tiagoboeing`                        |
+| Biblioteca Materiais Unisul      | [Disponibilidade de vários materiais para estudos!](https://github.com/computacaoUnisul/biblioteca-da-computacao-materiais) `by:tiagoboeing`                   |
 ----
