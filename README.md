@@ -10,7 +10,7 @@
 > - Lua
 
 ###### Finalizado
-> > -
+> -
 
 ## Externos
 ###### Cursando Atualmente
