@@ -1,23 +1,23 @@
 # Faculdade
 ## Análise e Desenvolvimento de Sistemas
 ###### Aprendendo Atualmente
-- JavaScript
+> - JavaScript
 
 ###### Gostaria de Aprender
-- Python
-- HTML
-- CSS
-- Lua
+> - Python
+> - HTML
+> - CSS
+> - Lua
 
 ###### Finalizado
--
+> > -
 
 ## Externos
 ###### Cursando Atualmente
--
+> -
 
 ###### Pretende Começar
-- Blender (Modelagem 3D)
+> - Blender (Modelagem 3D)
 
 ###### Finalizados
--
+> -
