@@ -26,7 +26,6 @@
 
 ---
 # Softwares Utilizados
-
 | Nome                          | Download                                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
 | Visual Studio Code               | [Editor de Código para uso Geral]([https://www.udemy.com/pt/](https://code.visualstudio.com))                                    |
@@ -37,10 +36,8 @@
 |                                  |                                                                                                                                  |
 | **Outros**                       |                                                                                                                                  |
 | Blender                          | [Modelagem 3D](https://www.blender.org)                                                                                          |
-
 ---
 # Cursos Online
-
 | Cursos e Informações                          | Links                                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
 | Udemy                            | [Cursos em Geral](https://www.udemy.com/pt/)                                                                                     |
@@ -49,8 +46,9 @@
 |                                  |                                                                                                                                  |
 | **Websites**                     |                                                                                                                                  |
 | W3School                         | [Informativo + Ajuda com Váriaveis](https://www.w3schools.com)                                                                   |
-|                                  |                                                                                                                                  |
+---
+# Utilitários
 | **Repositorios**                 |                                                                                                                                  |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
 | Biblioteca Materiais Unisul      | [Disponibilidade de vários materiais para estudos!](https://github.com/computacaoUnisul) `by:tiagoboeing`                        |
-
 ----
