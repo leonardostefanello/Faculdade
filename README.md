@@ -13,7 +13,7 @@
 -
 
 ## Externos
-> ###### Cursando Atualmente
+###### Cursando Atualmente
 -
 
 ###### Pretende Começar
