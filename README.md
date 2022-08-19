@@ -34,9 +34,7 @@
 | Brackets                         | [Editor de Texto para Códigos, Fácil e Prático!](https://brackets.io)                                                            |
 |                                  |                                                                                                                                  |
 | **Outros**                       |                                                                                                                                  |
-| Blender                          | [Modelagem 3D](https://www.blender.org) `by:tiagoboeing`                                                                         |
-
-----
+| Blender                          | [Modelagem 3D](https://www.blender.org)                                                                                          |
 
 ---
 # Cursos Online
