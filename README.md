@@ -48,7 +48,7 @@
 | W3School                         | [Informativo + Ajuda com Váriaveis](https://www.w3schools.com)                                                                   |
 ---
 # Utilitários
-| **Repositorios**                 |                                                                                                                                  |
+| **Repositórios**                 |                                                                                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
 | Biblioteca Materiais Unisul      | [Disponibilidade de vários materiais para estudos!](https://github.com/computacaoUnisul) `by:tiagoboeing`                        |
 ----
