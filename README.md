@@ -12,5 +12,12 @@
 ###### Finalizado
 -
 
-###### Cursos Externos
+## Externos
+###### Cursando Atualmente
+-
+
+###### Pretende Começar
 - Blender (Modelagem 3D)
+
+###### Finalizados
+-
