@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 public class CalculoTemperatura {
 
+	private static final DecimalFormat df = new DecimalFormat("0.00");
+
 	public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         
         //Raio do Circulo
         System.out.println("Digite o valor em fahrenheit:");
-        float fahrenheit = ler.nextFloat();
+        double fahrenheit = ler.nextDouble();
         
-        float celcius = (fahrenheit-32)*5/9;
-        System.out.println("Celcius = "+celcius);
+        double celcius = (fahrenheit-32)*5/9;
+        System.out.println("Celcius = " + df.format(celcius));
 
 	}
 
