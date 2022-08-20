@@ -1,5 +1,3 @@
-// NOTA: Script desenvolvido no NetBeans pelo Professor
-
 package exercicio1; //Mude para o nome da sua Package
 
 import java.util.Scanner;
