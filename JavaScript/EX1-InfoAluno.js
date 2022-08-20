@@ -3,7 +3,7 @@ package exercicio1; //Mude para o nome da sua Package
 import java.util.Scanner;
 
 
-public class Notas { //Mude para o nome da sua Classe
+public class InfoAluno { //Mude para o nome da sua Classe
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
