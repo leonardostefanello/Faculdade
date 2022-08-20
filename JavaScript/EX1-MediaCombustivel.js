@@ -9,10 +9,10 @@ public class MediaCombustivel {
         
         //Informação
         System.out.println("Digite a distancia percorrida:");
-        double distancia = ler.nextInt();
+        Double distancia = ler.nextDouble();
         
         System.out.println("Digite o combustivel consumido:");
-        double combustivel = ler.nextInt();
+        Double combustivel = ler.nextDouble();
         
         double media = distancia/combustivel;
         System.out.println("A média do seu veiculo é de: " +media);
