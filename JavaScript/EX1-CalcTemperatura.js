@@ -11,7 +11,7 @@ public class CalculoTemperatura {
         System.out.println("Digite o valor em fahrenheit:");
         float fahrenheit = ler.nextFloat();
         
-        double celcius = (fahrenheit-32)*5/9;
+        float celcius = (fahrenheit-32)*5/9;
         System.out.println("Celcius = "+celcius);
 
 	}
