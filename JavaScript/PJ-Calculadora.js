@@ -1,47 +1,95 @@
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+    public static void main(String[] args) throws Exception {
+        System.out.println(":::::::::::::::::::::Start:::::::::::::::::::");
+        System.out.println("\n\n");
 
-public class javaCalculator 
-{
+        System.out.println("1. Addition");
+        System.out.println("2. Multiplication");
+        System.out.println("3. Substraction");
+        System.out.println("4. Division");
+        System.out.println("0. Exit");
+        System.out.println("\n");
 
-    public static void main(String[] args) 
-    {
-        int num1;
-        int num2;
-        String operation;
+        System.out.println("Enter Your Choice :::::::  ");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
 
+        int usrChoice = Integer.parseInt(str);
 
-        Scanner input = new Scanner(System.in);
+        switch (usrChoice) {
+            case 1:
+                doAddition();
+                break;
+            case 2:
+                doMultiplication();
+                break;
+            case 3:
+                doSubstraction();
+                break;
+            case 4:
+                doDivision();
+                break;
 
-        System.out.println("please enter the first number");
-        num1 = input.nextInt();
+            case 0:
+                System.out.println("Thank you.....");
+                break;
 
-        System.out.println("please enter the second number");
-        num2 = input.nextInt();
-
-        Scanner op = new Scanner(System.in);
-
-        System.out.println("Please enter operation");
-        operation = op.next();
-
-        if (operation == "+");
-        {
-            System.out.println("your answer is" + (num1 + num2));
-        }
-        if  (operation == "-");
-        {
-            System.out.println("your answer is" + (num1 - num2));
-        }
-
-        if (operation == "/");
-        {
-            System.out.println("your answer is" + (num1 / num2));
-        }
-        if (operation == "*")
-        {
-            System.out.println("your answer is" + (num1 * num2));
+            default:
+                System.out.println("Invalid Value");
         }
 
-
-    }
+        System.out.println(":::::::::::::::::::::End:::::::::::::::::::");
 }
+
+public static void doAddition() throws Exception {
+    System.out.println("******* Enter in Addition Process ********");
+
+    String strNo1, strNo2;
+
+    System.out.println("Enter Number 1 For Addition : ");
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    strNo1 = br.readLine();
+
+    System.out.println("Enter Number 2 For Addition : ");
+    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+    strNo2 = br1.readLine();
+
+    int no1 = Integer.parseInt(strNo1);
+    int no2 = Integer.parseInt(strNo2);
+
+    int result = no1 + no2;
+
+    System.out.println("Addition of " + no1 + " and " + no2 + " is ::::::: " + result);
+}
+
+public static void doSubstraction() throws Exception {
+    System.out.println("******* Enter in Substraction Process ********");
+
+    String strNo1, strNo2;
+
+    System.out.println("Enter Number 1 For Substraction : ");
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    strNo1 = br.readLine();
+
+    System.out.println("Enter Number 2 For Substraction : ");
+    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+    strNo2 = br1.readLine();
+
+    int no1 = Integer.parseInt(strNo1);
+    int no2 = Integer.parseInt(strNo2);
+
+    int result = no1 - no2;
+
+    System.out.println("Substraction of " + no1 + " and " + no2 + " is ::::::: " + result);
+}
+
+public static void doMultiplication() throws Exception {
+    System.out.println("******* Enter in Multiplication Process ********");
+
+    String strNo1, strNo2;
+
+    System.out.println("Enter Number 1 For Multiplication : ");
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    strNo1 = br.readLine();
+
+    System.out.println("Enter Number 2 For Multiplication : ");
+    Buffer
