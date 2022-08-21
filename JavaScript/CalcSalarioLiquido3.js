@@ -24,48 +24,38 @@ public class CalcSalarioLiquido3 {
         
         //Valor Adicional
         double va = sb+pd;
-        System.out.println("Valor Adicional: " + pd);
         
         //Valores INSS
         if (va <= 1212) {
         	inss = 7.5;
         	vinss = va*(inss/100);
-        	System.out.println("% INNS: " + inss);
         } else if ((va <= 2427) & (va >= 1212)) {
         	inss = 9;
         	vinss = va*(inss/100);
-        	System.out.println("% INNS: " + inss);
         } else if ((va <= 3641) & (va >= 2427)) {
         	inss = 12;
         	vinss = va*(inss/100);
-        	System.out.println("% INNS: " + inss);
         } else if ((va <= 7087) & (va >= 3641)) {
         	inss = 14;
         	vinss = va*(inss/100);
-        	System.out.println("%INNS: " + inss);
         }
         
         //Valores IRRF
         if (va <= 1903) {
         	irrf = 0;
         	virrf = va*(irrf/100);
-        	System.out.println("% IRRF: " + irrf);
         } else if ((va <= 2826) & (va >= 1903)) {
         	irrf = 7.5;
         	virrf = va*(irrf/100);
-        	System.out.println("% IRRF: " + irrf);
         } else if ((va <= 3751) & (va >= 2826)) {
         	irrf = 15;
         	virrf = va*(irrf/100);
-        	System.out.println("% IRRF: " + irrf);
         } else if ((va <= 4664) & (va >= 3751)) {
         	irrf = 22.5;
         	virrf = va*(irrf/100);
-        	System.out.println("% IRRF: " + irrf);
         } else if ((va >= 4665)) {
         	irrf = 27.5;
         	virrf = va*(irrf/100);
-        	System.out.println("% IRRF: " + irrf);
         }
 		
         //Resultado
@@ -73,9 +63,11 @@ public class CalcSalarioLiquido3 {
         double resultado = (va-vf);
         		
         System.out.println("Nome: " + nome);
+	System.out.println("Valor Adicional: " + pd);
         System.out.println("Salario Bruto: " + sb);
         System.out.println("Salario Liquido a receber: " + resultado);
-
+	System.out.println("%INNS: " + inss);
+        System.out.println("% IRRF: " + irrf);
 	}
 
 }
