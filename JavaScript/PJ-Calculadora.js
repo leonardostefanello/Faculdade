@@ -1,15 +1,15 @@
     public static void main(String[] args) throws Exception {
-        System.out.println(":::::::::::::::::::::Start:::::::::::::::::::");
+        System.out.println("------------------ INICIO ------------------");
         System.out.println("\n\n");
 
-        System.out.println("1. Addition");
-        System.out.println("2. Multiplication");
-        System.out.println("3. Substraction");
-        System.out.println("4. Division");
-        System.out.println("0. Exit");
+        System.out.println("1. Adição");
+        System.out.println("2. Multiplicação");
+        System.out.println("3. Subtração");
+        System.out.println("4. Divisão");
+        System.out.println("0. Sair");
         System.out.println("\n");
 
-        System.out.println("Enter Your Choice :::::::  ");
+        System.out.println("- Digite a sua escolha: ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
 
@@ -30,26 +30,26 @@
                 break;
 
             case 0:
-                System.out.println("Thank you.....");
+                System.out.println("Até logo...");
                 break;
 
             default:
-                System.out.println("Invalid Value");
+                System.out.println("Valor Inválido");
         }
 
-        System.out.println(":::::::::::::::::::::End:::::::::::::::::::");
+        System.out.println("------------------- FINAL -------------------");
 }
 
 public static void doAddition() throws Exception {
-    System.out.println("******* Enter in Addition Process ********");
+    System.out.println("// Modo de Adição //");
 
     String strNo1, strNo2;
 
-    System.out.println("Enter Number 1 For Addition : ");
+    System.out.println("Digite o Primeiro Valor: ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     strNo1 = br.readLine();
 
-    System.out.println("Enter Number 2 For Addition : ");
+    System.out.println("Digite o Segundo Valor: ");
     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
     strNo2 = br1.readLine();
 
@@ -58,19 +58,19 @@ public static void doAddition() throws Exception {
 
     int result = no1 + no2;
 
-    System.out.println("Addition of " + no1 + " and " + no2 + " is ::::::: " + result);
+    System.out.println("A Adição de " + no1 + " e " + no2 + " é = " + result);
 }
 
 public static void doSubstraction() throws Exception {
-    System.out.println("******* Enter in Substraction Process ********");
+    System.out.println("// Modo de Subtração //");
 
     String strNo1, strNo2;
 
-    System.out.println("Enter Number 1 For Substraction : ");
+    System.out.println("Digite o Primeiro Valor: ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     strNo1 = br.readLine();
 
-    System.out.println("Enter Number 2 For Substraction : ");
+    System.out.println("Digite o Segundo Valor: ");
     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
     strNo2 = br1.readLine();
 
@@ -79,19 +79,19 @@ public static void doSubstraction() throws Exception {
 
     int result = no1 - no2;
 
-    System.out.println("Substraction of " + no1 + " and " + no2 + " is ::::::: " + result);
+    System.out.println("A Subtração de " + no1 + " e " + no2 + " é = " + result);
 }
 
 public static void doMultiplication() throws Exception {
-    System.out.println("******* Enter in Multiplication Process ********");
+    System.out.println("// Modo de Multiplicação");
 
     String strNo1, strNo2;
 
-    System.out.println("Enter Number 1 For Multiplication : ");
+    System.out.println("Digite o Primeiro Valor: ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     strNo1 = br.readLine();
 
-    System.out.println("Enter Number 2 For Multiplication : ");
+    System.out.println("Digite o Segundo Valor: ");
     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
     strNo2 = br1.readLine();
 
@@ -100,19 +100,19 @@ public static void doMultiplication() throws Exception {
 
     int result = no1 * no2;
 
-    System.out.println("Multiplication of " + no1 + " and " + no2 + " is ::::::: " + result);
+    System.out.println("A Multiplicação de " + no1 + " e " + no2 + " é = " + result);
 }
 
 public static void doDivision() throws Exception {
-    System.out.println("******* Enter in Dividion Process ********");
+    System.out.println("// Modo de Divisão //");
 
     String strNo1, strNo2;
 
-    System.out.println("Enter Number 1 For Dividion : ");
+    System.out.println("Digite o Primeiro Valor: ");
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     strNo1 = br.readLine();
 
-    System.out.println("Enter Number 2 For Dividion : ");
+    System.out.println("Digite o Segundo Valor: ");
     BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
     strNo2 = br1.readLine();
 
@@ -121,5 +121,5 @@ public static void doDivision() throws Exception {
 
     float result = no1 / no2;
 
-    System.out.println("Division of " + no1 + " and " + no2 + " is ::::::: " + result);
+    System.out.println("A Divisão de " + no1 + " e " + no2 + " é = " + result);
 }
