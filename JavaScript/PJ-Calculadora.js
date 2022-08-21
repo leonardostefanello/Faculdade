@@ -92,4 +92,34 @@ public static void doMultiplication() throws Exception {
     strNo1 = br.readLine();
 
     System.out.println("Enter Number 2 For Multiplication : ");
-    Buffer
+    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+    strNo2 = br1.readLine();
+
+    int no1 = Integer.parseInt(strNo1);
+    int no2 = Integer.parseInt(strNo2);
+
+    int result = no1 * no2;
+
+    System.out.println("Multiplication of " + no1 + " and " + no2 + " is ::::::: " + result);
+}
+
+public static void doDivision() throws Exception {
+    System.out.println("******* Enter in Dividion Process ********");
+
+    String strNo1, strNo2;
+
+    System.out.println("Enter Number 1 For Dividion : ");
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    strNo1 = br.readLine();
+
+    System.out.println("Enter Number 2 For Dividion : ");
+    BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+    strNo2 = br1.readLine();
+
+    int no1 = Integer.parseInt(strNo1);
+    int no2 = Integer.parseInt(strNo2);
+
+    float result = no1 / no2;
+
+    System.out.println("Division of " + no1 + " and " + no2 + " is ::::::: " + result);
+}
