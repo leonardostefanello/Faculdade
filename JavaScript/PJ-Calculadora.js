@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class CalculadoraSimples {
     	public static void main(String[] args) throws Exception {
             System.out.println("------------------ INICIO ------------------");
-            System.out.println("\n\n");
+            System.out.println("\n");
 
             System.out.println("1. Adição");
             System.out.println("2. Multiplicação");
@@ -64,7 +64,7 @@ public class CalculadoraSimples {
 
         int result = no1 + no2;
 
-        System.out.println("A Adição de " + no1 + " e " + no2 + " é = " + result);
+        System.out.println("A Adição entre " + no1 + " e " + no2 + " é " + result);
     }
 
     public static void doSubstraction() throws Exception {
@@ -85,7 +85,7 @@ public class CalculadoraSimples {
 
         int result = no1 - no2;
 
-        System.out.println("A Subtração de " + no1 + " e " + no2 + " é = " + result);
+        System.out.println("A Subtração entre " + no1 + " e " + no2 + " é " + result);
     }
 
     public static void doMultiplication() throws Exception {
@@ -106,7 +106,7 @@ public class CalculadoraSimples {
 
         int result = no1 * no2;
 
-        System.out.println("A Multiplicação de " + no1 + " e " + no2 + " é = " + result);
+        System.out.println("A Multiplicação entre " + no1 + " e " + no2 + " é " + result);
     }
 
     public static void doDivision() throws Exception {
@@ -127,7 +127,7 @@ public class CalculadoraSimples {
 
         float result = no1 / no2;
 
-        System.out.println("A Divisão de " + no1 + " e " + no2 + " é = " + result);
+        System.out.println("A Divisão entre " + no1 + " e " + no2 + " é " + result);
     }
 
 }
