@@ -63,9 +63,9 @@ public class CalcSalarioLiquido {
         double resultado = (sb-vf);
         		
         System.out.println("Nome: " + nome);
-	System.out.println("% Desconto: " + cpd);
         System.out.println("Salario Liquido a receber: " + resultado);
-	System.out.println("%INNS: " + inss);
+	System.out.println("% Desconto: " + pd);
+	System.out.println("% INNS: " + inss);
 	System.out.println("% IRRF: " + irrf);
 
 	}
