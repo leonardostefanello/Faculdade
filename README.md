@@ -1,7 +1,7 @@
 # Faculdade
 ## Análise e Desenvolvimento de Sistemas
 ###### Aprendendo Atualmente
-- JavaScript
+- Java (Na Faculdade);
 
 ###### Gostaria de Aprender
 - Python
@@ -9,13 +9,15 @@
 - CSS
 - Lua
 - NodeJS
+- SQL
 
 ###### Finalizado
 -
 
 ## Externos
 ###### Cursando Atualmente
--
+- JavaScript (JS - (CursoEmVideo));
+- SQL (MySQL - (CursoEmVideo));
 
 ###### Pretende Começar
 - Blender (Modelagem 3D)
@@ -43,6 +45,7 @@
 | Udemy                            | [Cursos em Geral](https://www.udemy.com/pt/)                                                                                     |
 | Alura                            | [Cursos em Geral](https://www.alura.com.br)                                                                                      |
 | Rocketseat                       | [Curso de Programação](https://www.rocketseat.com.br)                                                                            |
+| Curso em Video (Best)            | [Cursos de Programação](https://www.cursoemvideo.com)                                                                            |
 |                                  |                                                                                                                                  |
 | **Websites**                     |                                                                                                                                  |
 | W3School                         | [Informativo + Ajuda com Váriaveis](https://www.w3schools.com)                                                                   |
