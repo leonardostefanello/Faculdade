@@ -10,9 +10,7 @@ public class BonificaçãoSalário {
         Scanner ler = new Scanner(System.in);
         
         //Váriaveis
-        double salário;
-        double vendas;
-        double total;
+        double salário, vendas, total;
         
         //Informações
         System.out.println("Digite o salário do vendedor: ");
