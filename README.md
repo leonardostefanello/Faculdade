@@ -30,7 +30,7 @@
 # Softwares Utilizados
 | Nome                          | Download                                                                                                               |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------|
-| Visual Studio Code               | [Editor de Código para uso Geral]([https://www.udemy.com/pt/](https://code.visualstudio.com))                                    |
+| Visual Studio Code               | [Editor de Código para uso Geral](https://code.visualstudio.com))                                    |
 | Eclipse IDE                      | [IDE para Desenvolvimento JAVA](https://www.alura.com.br)                                                                        |
 |                                  |                                                                                                                                  |
 | **Organização**                  |                                                                                                                                  |
