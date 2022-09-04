@@ -36,7 +36,7 @@
 |                                  |                                                                                                                                  |
 | **Organização**                  |                                                                                                                                  |
 | Notion                           | [Organizador de Workspace e Notas]([notion.so)                                                                                   |
-| Notepad++                        | [Editor de Texto]([https://brackets.io](https://notepad-plus-plus.org/downloads/))                                               |
+| Notepad++                        | [Editor de Texto](https://brackets.io](https://notepad-plus-plus.org/downloads/)                                                 |
 | Brackets                         | [Editor de Texto para Códigos, Fácil e Prático!](https://brackets.io)                                                            |
 |                                  |                                                                                                                                  |
 | **Outros**                       |                                                                                                                                  |
