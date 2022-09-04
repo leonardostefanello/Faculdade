@@ -41,7 +41,7 @@
 |                                  |                                                                                                                                  |
 | **Outros**                       |                                                                                                                                  |
 | Blender                          | [Modelagem 3D](https://www.blender.org)                                                                                          |
-| Photoshop                        | [Editor de Imagem]([https://www.blender.org](https://www.adobe.com/br/products/photoshop.html))                                  |
+| Photoshop                        | [Editor de Imagem](https://www.adobe.com/br/products/photoshop.html)                                                             |
 ---
 # Cursos Online
 | Cursos e Informações             | Links                                                                                                                            |
