@@ -3,14 +3,6 @@
 ###### Aprendendo Atualmente
 - Java (Na Faculdade);
 
-###### Gostaria de Aprender
-- Python
-- HTML
-- CSS
-- Lua
-- NodeJS
-- SQL
-
 ###### Finalizado
 -
 
@@ -19,9 +11,18 @@
 - JavaScript (JS - (CursoEmVideo));
 - SQL (MySQL - (CursoEmVideo));
 
-###### Pretende Começar
+###### Pretende Começar (Sequência)
+- HTML / CSS
+- SQL
+- PowerBi
+- Metabase (Google)
+- Git e Github
+- Segurança da Informação
+- Python
 - Blender (Modelagem 3D)
 - Adobe Photoshop
+
+
 
 ###### Finalizados
 -
