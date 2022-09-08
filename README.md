@@ -8,8 +8,8 @@
 
 ## Externos
 ###### Cursando Atualmente
-- JavaScript (JS - (CursoEmVideo));
-- SQL (MySQL - (CursoEmVideo));
+- JavaScript;
+- SQL;
 
 ###### Pretende Começar (Sequência)
 - HTML / CSS
