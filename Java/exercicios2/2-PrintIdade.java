@@ -18,7 +18,7 @@ public class PrintIdade {
 
         if (idade > 18) {
         	System.out.println(nome + " é maior de idade!");
-        } else
+        } else {
         	System.out.println(nome + " é menor de idade!");
 	}
 
