@@ -2,10 +2,20 @@ package exercicio2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.text.NumberFormat;
+import java.util.Locale;
 
 //SIM, usei switch em vez do metodo Constructor que iria simplificar o processo!
 
 public class EX24CardapioRestaurante {
+
+    //cria uma função conversão() que retorna um valor já formatado com a moeda BRL (R$)
+    static String conversão(double valor) {
+        //conversão para BRL
+        Locale brazil = new Locale("pt", "BR");
+        NumberFormat nf = NumberFormat.getCurrencyInstance(brazil);
+        return nf.format(valor); //retorna o valor formatado
+    }
     public static void main(String[] args) throws Exception {
 
         //variável
@@ -47,7 +57,7 @@ public class EX24CardapioRestaurante {
             case 103: //valor == 103
                 Hamburger();
                 break;
-            case 104: //valor == 104
+            case 104: //valor == 10410
                 Cheeseburger();
                 break;
             case 105: //valor == 105
@@ -81,7 +91,7 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 
     //--> BauruSimples
@@ -103,7 +113,7 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 
     //--> BauruComOvo
@@ -125,7 +135,7 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 
     //--> Hamburger
@@ -147,7 +157,7 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 
     //--> Cheeseburger
@@ -169,7 +179,7 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 
     //--> Refrigerante
@@ -191,6 +201,6 @@ public class EX24CardapioRestaurante {
         resultado = (n1 * preço);
 
         //print
-        System.out.println("Você deverá pagar: " + resultado);
+        System.out.println("Você deverá pagar: " + conversão(resultado));
     }
 }
