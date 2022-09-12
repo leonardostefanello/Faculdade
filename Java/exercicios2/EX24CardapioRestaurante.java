@@ -17,12 +17,12 @@ public class EX24CardapioRestaurante {
         System.out.println("\n"); //pula 1 linha
 
         //escolhas
-        System.out.println("1. CachorroQuente");
-        System.out.println("2. BauruSimples");
-        System.out.println("3. BauruComOvo");
-        System.out.println("4. Hamburger");
-        System.out.println("5. Cheeseburger");
-        System.out.println("6. Refrigerante");
+        System.out.println("100. CachorroQuente");
+        System.out.println("102. BauruSimples");
+        System.out.println("103. BauruComOvo");
+        System.out.println("104. Hamburger");
+        System.out.println("105. Cheeseburger");
+        System.out.println("106. Refrigerante");
         System.out.println("0. Sair");
         System.out.println("\n"); //pula 1 linha
 
