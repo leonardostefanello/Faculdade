@@ -3,6 +3,10 @@ package exercicio2;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/*
+-> I used BufferedReader and InputsStreamReader cause i was trying new ways but you can use the Scanner import! :)
+*/
+
 public class EX13AumentoPorClasse {
     public static void main(String[] args) throws Exception {
 
