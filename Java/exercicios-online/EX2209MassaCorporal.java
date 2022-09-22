@@ -39,8 +39,8 @@ public class EX2209 {
         System.out.println("Nome: " + nome);
         System.out.println("Apelido: " + apelido);
         System.out.println("Idade: " + idade);
-        System.out.println("Peso: " + idade);
-        System.out.println("Altura: " + idade);
+        System.out.println("Peso: " + peso);
+        System.out.println("Altura: " + altura);
         System.out.println("Fumante? " + fumante);
         System.out.println("Consome Bebidas Alcoolicas? " + bebidas);
         System.out.println("Pratica Exercicios Fisicos? " + exercicios);
