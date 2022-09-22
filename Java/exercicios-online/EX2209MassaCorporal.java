@@ -8,26 +8,62 @@ public class EX2209 {
         
         //variável
         Scanner ler = new Scanner(System.in);
-        Double mc;
+        String nome, apelido, fumante, bebidas, exercicios;
+        Integer idade;
+        Double altura, peso, imc;
 
         //leitura
-        System.out.println("Digite a sua Massa Corporal: ");
-        mc = ler.nextDouble();
+        System.out.println("Digite o Nome: ");
+        nome = ler.nextLine();
+        System.out.println("Digite o Apelido: ");
+        apelido = ler.nextLine();
+        System.out.println("Digite a Idade: ");
+        idade = ler.nextInt();
+        System.out.println("Digite a Altura: ");
+        altura = ler.nextDouble();
+        System.out.println("Digite o Peso: ");
+        peso = ler.nextDouble();
+        System.out.println("O paciente fuma?");
+        fumante = ler.nextLine();
+        ler.nextLine();
+        System.out.println("O paciente consome bebidas alcoolicas?");
+        bebidas = ler.nextLine();
+        System.out.println("O pratica algum exercicio fisico?");
+        exercicios = ler.nextLine();
 
-        System.out.println("---------------------------------------------");
+        //calculos
+        imc = peso / (altura * altura);
+
+        //decoração + informações
+        System.out.println("------------- FICHA DO PACIENTE -------------");
+        System.out.println("Nome: " + nome);
+        System.out.println("Apelido: " + apelido);
+        System.out.println("Idade: " + idade);
+        System.out.println("Peso: " + idade);
+        System.out.println("Altura: " + idade);
+        System.out.println("Fumante? " + fumante);
+        System.out.println("Consome Bebidas Alcoolicas? " + bebidas);
+        System.out.println("Pratica Exercicios Fisicos? " + exercicios);
+        System.out.println("----------------- RESULTADO -----------------");
 
         //comparação
-        if (mc < 17) {
+        if (imc < 17) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Muito abaixo do peso");
-        } else if (mc >= 17 && mc <= 18.49) {
+        } else if (imc >= 17 && imc <= 18.49) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Abaixo do peso");
-        } else if (mc >= 18.5 && mc <= 24.99) {
+        } else if (imc >= 18.5 && imc <= 24.99) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Peso Normal");
-        } else if (mc >= 25 && mc <= 29.99) {
+        } else if (imc >= 25 && imc <= 29.99) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Acima do peso");
-        } else if (mc >= 30 && mc <= 34.99) {
+        } else if (imc >= 30 && imc <= 34.99) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Obesidade 1");
-        } else if (mc >= 35 && mc <= 39.99) {
+        } else if (imc >= 35 && imc <= 39.99) {
+            System.out.println("Valor do IMC: " + imc);
             System.out.println("Obesidade II (Severa)");
         }
 
@@ -37,5 +73,3 @@ public class EX2209 {
         System.out.println("---------------------------------------------");
     }
 }
-
-//O ---------- é apenas para decoração! ;)
