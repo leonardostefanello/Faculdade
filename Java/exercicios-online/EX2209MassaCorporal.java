@@ -66,10 +66,9 @@ public class EX2209 {
             System.out.println("Valor do IMC: " + imc);
             System.out.println("Obesidade II (Severa)");
         }
+        System.out.println("---------------------------------------------");
 
         //fechar scanner
         ler.close();
-
-        System.out.println("---------------------------------------------");
     }
 }
